@@ -31,7 +31,7 @@
             />
 
         <Button
-
+            android:id="@+id/game_activity_score"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -45,7 +45,7 @@
 
 
         <Button
-
+            android:id="@+id/game_activity_best"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -96,26 +96,255 @@
 
 
     <Button
+        android:id="@+id/restart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Restart"
         android:textSize="33dp"
         android:background="@android:color/background_light"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"/>
+
+
+
+<GridLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="6"
+    android:columnCount="4"
+    android:rowCount="4"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="true"
+    android:padding="14dp"
+    android:layout_margin="20dp"
+    android:background="@color/colorPrimary"
 
 
 
 
 
+        >
 
+//row
+<Button
+    android:id="@+id/game_0_0"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="@android:color/holo_orange_light"
+    android:layout_margin="3dp"
+    android:textSize="30dp"
+    android:text="2"
+
+
+    />
+
+
+
+    <Button
+        android:id="@+id/game_0_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
 
 
 
         />
 
+<Button
+    android:id="@+id/game_0_2"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="@android:color/holo_orange_light"
+    android:layout_margin="3dp"
+    android:textSize="30dp"
+    android:text="2"
 
+/>
+    <Button
+        android:id="@+id/game_0_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
 
+        />
+    <Button
+        android:id="@+id/game_1_0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
 
+        />
+    <Button
+        android:id="@+id/game_1_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
 
+        />
+    <Button
+        android:id="@+id/game_1_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
+
+        />
+    <Button
+        android:id="@+id/game_1_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
+
+        />
+    <Button
+        android:id="@+id/game_2_0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
+
+        />
+    <Button
+        android:id="@+id/game_2_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
+
+        />
+    <Button
+        android:id="@+id/game_2_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
+
+        />
+    <Button
+        android:id="@+id/game_2_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
+
+        />
+    <Button
+        android:id="@+id/game_3_0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
+
+        />
+    <Button
+        android:id="@+id/game_3_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
+
+        />
+    <Button
+        android:id="@+id/game_3_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
+
+        />
+    <Button
+        android:id="@+id/game_3_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="3dp"
+        android:textSize="30dp"
+        android:text="2"
+
+        />
+></GridLayout>
 </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
